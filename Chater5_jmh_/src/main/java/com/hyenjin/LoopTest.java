@@ -50,12 +50,15 @@ public class LoopTest {
     }
 
     public static void main(String[] args) throws IOException, RunnerException {
+
+
+
         Options opt = new OptionsBuilder()// 성능측정 옵션 설정 객체
                 .include(LoopTest.class.getSimpleName())
                 .warmupIterations(10)           // 사전 테스트 횟수
                 .measurementIterations(10)      // 실제 측정 횟수
                 .forks(1)                       // 
                 .build();
-        new Runner(opt).run();                  // 벤치마킹 시작
+        new Runner(opt).run();// 벤치마킹 시작
     }
 }
