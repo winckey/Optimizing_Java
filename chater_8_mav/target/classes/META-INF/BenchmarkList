@@ -1,0 +1,2 @@
+JMH S 17 com.hyen.LoopTest S 57 com.hyen.generated.LoopTest_originLoopWithGetSize_jmhTest S 21 originLoopWithGetSize S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
+JMH S 17 com.hyen.LoopTest S 42 com.hyen.generated.LoopTest_getNum_jmhTest S 6 getNum S 11 AverageTime E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 

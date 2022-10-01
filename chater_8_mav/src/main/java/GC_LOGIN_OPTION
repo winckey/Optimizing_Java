@@ -1,0 +1,2 @@
+-Xloggc:gc.log -XX:+PrintGCDetails -XX:+PrintTenuringDistribution
+-XX:+PrintGCTimeStamps -XX:+PrintGCDataStamps
