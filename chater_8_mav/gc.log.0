@@ -1,0 +1,16 @@
+[0.018s][info][gc,heap] Heap region size: 1M
+[0.025s][info][gc     ] Using G1
+[0.025s][info][gc,heap,coops] Heap address: 0x0000000701200000, size: 4078 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+[0.018s][info][gc,heap] Heap region size: 1M
+[0.024s][info][gc     ] Using G1
+[0.024s][info][gc,heap,coops] Heap address: 0x0000000701200000, size: 4078 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+[20.548s][info][gc,heap,exit ] Heap
+[20.548s][info][gc,heap,exit ]  garbage-first heap   total 262144K, used 41984K [0x0000000701200000, 0x0000000800000000)
+[20.548s][info][gc,heap,exit ]   region size 1024K, 11 young (11264K), 0 survivors (0K)
+[20.548s][info][gc,heap,exit ]  Metaspace       used 9882K, capacity 10130K, committed 10240K, reserved 1058816K
+[20.549s][info][gc,heap,exit ]   class space    used 955K, capacity 1018K, committed 1024K, reserved 1048576K
+[22.586s][info][gc,heap,exit ] Heap
+[22.586s][info][gc,heap,exit ]  garbage-first heap   total 262144K, used 43008K [0x0000000701200000, 0x0000000800000000)
+[22.586s][info][gc,heap,exit ]   region size 1024K, 13 young (13312K), 0 survivors (0K)
+[22.586s][info][gc,heap,exit ]  Metaspace       used 11589K, capacity 11916K, committed 12032K, reserved 1060864K
+[22.586s][info][gc,heap,exit ]   class space    used 1100K, capacity 1196K, committed 1280K, reserved 1048576K
