@@ -1,16 +1,15 @@
 package org.kdea.cloader;
 
+
+
 public class ClassA
 {
-    static{	System.out.println("* ClassA 로드 완료 *"); }
-
-    public ClassA(){
-        System.out.println("ClassA 인스턴스 생성");
-    }
-
-    public void createB()
+    public static synchronized  void run(String th)
     {
-        System.out.println("ClassA.createB() 실행됨");
-        ClassB b = new ClassB();
+        System.out.println(th + " lock");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {}
+        System.out.println(th + " unlock");
     }
 }

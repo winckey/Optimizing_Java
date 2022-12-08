@@ -1,17 +1,23 @@
 package org.kdea.cloader;
 
 
+import java.time.LocalDateTime;
 
 public class Main
 {
-    static{	System.out.println("* Main 로드  완료 *"); }
+
 
     public static void main(String[] args)
     {
         ClassA a = new ClassA();
-        a.createB();
-
         ClassA a2 = new ClassA();
-        a2.createB();
+        Thread thread1 = new Thread(() -> {
+            a.run("스레드1");
+        });
+        Thread thread2 = new Thread(() -> {
+            a2.run("스레드2");
+        });
+        thread1.start();
+        thread2.start();
     }
 }
